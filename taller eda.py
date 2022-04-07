@@ -167,8 +167,8 @@ def best_first(initial_state, heuristic_eval):
 
 
 #MUESTRA LA SOLUCION    
-#state,iters=dfs(initial_state)
-state,iters=best_first(initial_state, heuristic_eval)
+state,iters=dfs(initial_state)
+#state,iters=best_first(initial_state, heuristic_eval)
 print("iteraciones:", iters)
 n=0
 while n<5:
